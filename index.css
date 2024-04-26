@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Figtree", sans-serif;
+}
+body{
+    background: hsl(47, 88%, 63%);
+}
+.Greg{
+    width: 25%;
+    height: auto;
+    background: hsl(0, 0%, 100%);
+    margin: 5% auto;
+    font-size: 16px;
+    padding: 18px;
+    border-radius: 1.0rem;
+    border: 0.1rem solid black;
+    box-shadow: 0.5rem 0.5rem;
+}
+    
+   .Greg > img{
+     width: 100%; 
+        height: 100%;
+        overflow: hidden;
+        border-radius: 0.5rem;
+   } 
+    
+.Greg > h3{
+    background:hsl(47, 88%, 63%);
+    margin-bottom: 1.0rem;
+    margin-top: 1.0rem;
+    border-radius: 0.3rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.9rem;
+    width: fit-content;
+   
+}
+.Greg > h1{
+    margin-top: 1.0rem;
+    color:hsl(0, 0%, 7%);
+    margin-bottom: 15px;
+}
+.Greg > h1 >a{
+    margin-top: 1.0rem;
+    color:inherit;
+    margin-bottom: 1.0rem;
+    text-decoration: none;
+}
+.Greg > h1 >a:hover{
+    color:hsl(47, 88%, 63%) ;
+    
+}
+.Greg > p{
+    color:hsl(0, 0%, 50%);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 2.0rem;
+}
+.Hooper{
+    display: flex;
+    align-items: center;
+}
+.Hooper> img{
+    width: 2rem;
+    margin-right: 0.75rem;
+}
+.Hooper > strong{
+    font-size: 14px;
+    
+}
+@media(max-width:820px){
+.Greg{
+    width: 60%;
+}
+}
+@media(max-width:480px){
+    .Greg{
+        width: 80%;
+    }
+}
